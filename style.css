@@ -1,0 +1,36 @@
+*{
+  margin: 0; 
+  padding: 0; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    color:#c83349;
+    background-color:rgb(46, 48, 69);
+    height: 15vh;
+}
+.logo img{
+    width: 80px;
+}
+.toolbar-item{
+    cursor: pointer !important;
+}
+    /*color: black;
+    border: 2px;
+    border-radius: 5px; 
+    padding-left: 8px;
+    padding-right: 8px;
+} */
+.copy-to-clipboard-button{
+    padding: 5px 10px 5px 10px !important;
+    color: white !important;
+    background-color: #878f99 !important;
+}
+.container{
+    background-color: #d96459;
+    width: 60vw;
+    padding-left: 30px;
+    margin: auto;
+}
